@@ -27,6 +27,55 @@
     font-size: 50%;
   }
 
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+
+  .hero-text-box {
+    text-align: center;
+    display: flex;
+  }
+
+  .hero-header-text {
+    text-align: center;
+    align-self: center;
+  }
+
+  .btn-link {
+    align-self: center;
+  }
+
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .section-about {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .stichting-img-box {
+    align-self: center;
+  }
+
+  .wat-bieden-wij-img-box {
+    align-self: center;
+  }
+
+  .seminars-img-box {
+    align-self: center;
+  }
+
+  .section-cta {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -87,55 +136,6 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
-
-  .hero {
-    grid-template-columns: 1fr;
-    padding: 0 8rem;
-  }
-
-  .hero-text-box {
-    text-align: center;
-    display: flex;
-  }
-
-  .hero-header-text {
-    text-align: center;
-    align-self: center;
-  }
-
-  .btn-link {
-    align-self: center;
-  }
-
-  .hero-img-box {
-    text-align: center;
-  }
-
-  .hero-img {
-    width: 60%;
-  }
-
-  .section-about {
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
-  }
-
-  .stichting-img-box {
-    align-self: center;
-  }
-
-  .wat-bieden-wij-img-box {
-    align-self: center;
-  }
-
-  .seminars-img-box {
-    align-self: center;
-  }
-
-  .section-cta {
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
-  }
 }
 
 /* ****************************** */
@@ -179,7 +179,11 @@
   }
 
   .section-hero {
-    padding: 2.4rem 1.2rem 6.4rem 1.2rem;
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero-header-text {
+    font-size: 5.2rem;
   }
 
   .hero {
