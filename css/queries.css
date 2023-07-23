@@ -193,4 +193,8 @@
   .hero-img {
     width: 80%;
   }
+
+  .cta-text-box {
+    padding: 2rem 2.8rem 2.8rem 2.8rem;
+  }
 }
